@@ -1,0 +1,74 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+path {
+    fill: red;
+
+}
+
+
+.container {
+    height: 100px;
+    width: 500px;
+    border-top: 5px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    display: flex;
+}
+
+.container1 {
+    height: 100px;
+    width: 500px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    display: flex;
+}
+
+
+.container2 {
+    height: 100px;
+    width: 500px;
+    border-bottom: 5px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    display: flex;
+}
+
+.section {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 3px; 
+}
+
+.section:nth-child(2n+2) {
+    background-color: black;
+}
+
+.section1 {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.section1:nth-child(2n-1){
+    background-color: black;
+}
+
+.section2 {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.section2:nth-child(3n-2){
+    background-color: black;
+}
